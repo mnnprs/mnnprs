@@ -1,0 +1,43 @@
+.navbar-brand img {
+	width: 30px;
+	height: 30px;
+}
+
+body {
+	background-color: #F2F2F2;
+}
+
+.nav-link {
+	color: white;
+}
+
+li {
+    list-style-type: none;
+}
+
+h1 {
+	font-family:;
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	text-align: center;
+	color: black;
+}
+
+.exp div{
+	display: flex;
+}
+
+
+.card img {
+	width: 5%;
+}
+
+.hotel img {
+	width: 5%;
+}
+
+.bio img {
+	width: 5%;
+}
+

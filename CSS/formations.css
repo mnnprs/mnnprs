@@ -1,0 +1,67 @@
+.navbar-brand img {
+	width: 30px;
+	height: 30px;
+}
+
+body {
+	background-color: #F2F2F2;
+}
+
+.col-md-4 img {
+	width: 180px;
+	height: 180px;
+
+}
+
+.card-title img {
+	width: 7%;
+}
+
+.card-title2 img {
+	width: 4%;
+	
+}
+
+li {
+    list-style-type: none;
+}
+
+h1 {
+	font-family: ;
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	text-align: center;
+	color: black;
+}
+
+
+.ecole {
+	color:#d8dabe;
+
+}
+
+.ecole img {
+	width: 10%;
+}
+
+.certifications{
+	color:#dabece;
+
+}
+
+.ads img {
+	width: 5%;
+}
+
+.analytics img {
+	width: 9%;
+}
+
+.logiciels{
+	color:#d8dabe;
+}
+
+.soft-skills{
+	color: #dabece;
+}
