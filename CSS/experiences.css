@@ -4,15 +4,18 @@
 }
 
 body {
-	background-color: #F2F2F2;
+	background-color: #FBE5EE;
 }
 
 .nav-link {
 	color: white;
 }
 
-li {
-    list-style-type: none;
+.card {
+  display: flex;
+  width: 70%;
+  margin: auto;
+
 }
 
 h1 {
@@ -21,23 +24,73 @@ h1 {
 	width: 100%;
 	justify-content: center;
 	text-align: center;
-	color: black;
+	color: #686563;
 }
 
-.exp div{
-	display: flex;
+.cards {
+  padding: 15px 0;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  background-color: #FBE5EE;
+}
+
+.card-element {
+  width: 30%;
+  background-size: cover;
+  background-position: center;
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+.card-element a {
+  text-decoration: none;
+  color: white;
 }
 
 
-.card img {
-	width: 5%;
+@media screen and (max-width: 1440px) {
+    .card img {
+    width: 10%;
+    margin: auto;
+  }
+  .hotel img {
+    width: 10%
+  }
+  .bio img {
+    width: 10%;
+  }
 }
 
-.hotel img {
-	width: 5%;
+@media screen and (max-width: 768px) {
+  .card-element {
+    width: 200px;
+    height: 110px;
+  }
 }
 
-.bio img {
-	width: 5%;
+@media screen and (max-width: 600px) {
+  .card img {
+  	width: 30%;
+  	margin: auto;
+  }
+  .hotel img {
+  	width: 30%
+  }
+  .bio img {
+  	width: 30%;
+  }
+    .card-element {
+    width: 120px;
+    height: 70px;
+  }
 }
-

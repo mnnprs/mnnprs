@@ -7,8 +7,8 @@
 	color: white;
 }
 
-li {
-    list-style-type: none;
+body {
+  background-color: #FBCE9C;
 }
 
 h1 {
@@ -17,28 +17,44 @@ h1 {
 	width: 100%;
 	justify-content: center;
 	text-align: center;
-	color: #C9D4FF;
+	color: #686563;
 }
 
-h2 {
+.infos {
 	font-family: Monaco;
 	color: white;
-	background-color: #BFBDBE;
+	background-color: #FBCE9C;
 }
 
 .first-div {
 	display: flex;
 	flex-direction: row-reverse;
-	justify-content: space-between;
-	background-color: #8C7D77;
-	color: white;
+	justify-content: flex-end;
+	background-color: #FBCE9C;
+}
 
+.first-div p{
+  margin-left: 50px;
+  margin-right: 50px;
+  font-size: 23px;
+  color: white;
 }
 
 .first-div img{
-	width: 50%;
+	width: 20%;
 
 }
+
+.first-div a {
+  text-decoration: none;
+  color:#F5B6B4;
+}
+
+hr {
+  width: 95%;
+  margin: auto;
+}
+
 
 .cards {
   padding: 15px 0;
@@ -46,7 +62,7 @@ h2 {
   display: flex;
   justify-content: space-around;
   align-items: flex-end;
-  background-color: #BFBDBE;
+  background-color: #FBCE9C;
 }
 
 .card-element {
@@ -64,6 +80,63 @@ h2 {
   border-radius: 5px;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
 }
+
+.card-element a {
+  text-decoration: none;
+  color: white;
+}
+
+
+@media screen and (max-width: 768px) {
+  .card-element {
+    width: 200px;
+    height: 110px;
+  }
+  .first-div {
+    flex-direction: column-reverse;
+  }
+  .first-div img {
+    width: 35%;
+    display: flex;
+    align-self: center;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .card-element {
+    width: 120px;
+    height: 70px;
+  }
+  .first-div {
+    flex-direction: column-reverse;
+  }
+  .first-div img {
+    width: 50%;
+    display: flex;
+    align-self: center;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
