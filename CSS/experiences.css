@@ -5,6 +5,7 @@
 
 body {
 	background-color: #FBE5EE;
+  font-family: Monaco;
 }
 
 .nav-link {
@@ -19,12 +20,13 @@ body {
 }
 
 h1 {
-	font-family:;
 	display: flex;
-	width: 100%;
+	width: 55%;
+  margin: auto;
 	justify-content: center;
 	text-align: center;
 	color: #686563;
+  background-color: white;
 }
 
 .cards {
@@ -93,4 +95,9 @@ h1 {
     width: 120px;
     height: 70px;
   }
+}
+
+hr {
+  width: 35%;
+  margin: auto;
 }

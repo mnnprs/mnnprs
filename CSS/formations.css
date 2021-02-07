@@ -5,6 +5,7 @@
 
 body {
 	background-color: #DFE4F2;
+  font-family: Monaco;
 }
 
 .card-title img {
@@ -16,6 +17,12 @@ body {
 	
 }
 
+.col-md-4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .card {
 	margin: auto;
 }
@@ -25,12 +32,13 @@ li {
 }
 
 h1 {
-	font-family: ;
 	display: flex;
-	width: 100%;
+	width: 55%;
 	justify-content: center;
 	text-align: center;
+  margin: auto;
 	color: #686563;
+  background-color: white;
 }
 
 h2 {
@@ -56,9 +64,15 @@ h2 {
 	margin: auto;
 }
 
+.accordion-body {
+  color: #686563;
+}
+
 .soft-skills{
 	width: 15%;
+  display: flex;
 	margin: auto;
+  justify-content: space-around;
 	text-align: center;
 }
 
@@ -130,6 +144,6 @@ h2 {
 }
 
 hr {
-	width: 95%;
+	width: 35%;
 	margin: auto;
 }
