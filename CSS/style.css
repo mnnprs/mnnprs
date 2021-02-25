@@ -60,6 +60,16 @@ hr {
   margin: auto;
 }
 
+.mapouter {
+  display: flex;
+  width: 10%;
+  margin: auto;
+}
+
+.gmap_canvas iframe{
+    height: 400px;
+    width: 100%;
+}
 
 .cards {
   padding: 15px 0;
